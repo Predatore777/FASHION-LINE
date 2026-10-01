@@ -90,7 +90,7 @@
     var y = window.scrollY;
     header.classList.toggle("scrolled", y > 40);
     bar.classList.toggle("show", y > window.innerHeight * 0.55);
-    if (!reduce && y < window.innerHeight) heroBg.style.transform = "translate3d(0," + (y * 0.25) + "px,0)";
+    if (!reduce && window.innerWidth >= 720 && y < window.innerHeight) heroBg.style.transform = "translate3d(0," + (y * 0.25) + "px,0)";
     ticking = false;
   }
   window.addEventListener("scroll", function () {
