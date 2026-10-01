@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fashion Line Hair Diffusion · Parrucchiere a Milano, Porta Venezia</title>
+<meta name="description" content="Fashion Line Hair Diffusion: parrucchiere donna e uomo in Via Castel Morrone 18, Milano. Taglio, piega, colore, shatush, Air Touch, lissage alla cheratina. Prenota online.">
+<meta name="theme-color" content="#2b1f18">
+<meta property="og:title" content="Fashion Line Hair Diffusion · Milano">
+<meta property="og:description" content="Il tuo salone in zona Porta Venezia. Prenota online in pochi secondi.">
+<meta property="og:image" content="img/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/salone-lampadari-800.webp" media="(max-width: 800px)">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <a href="#top" class="logo" aria-label="Fashion Line Hair Diffusion, torna su">
+    <span class="logo-main">Fashion Line</span>
+    <span class="logo-sub">Hair Diffusion</span>
+  </a>
+  <nav class="nav" id="nav" aria-label="Menu principale">
+    <a href="#salone">Il salone</a>
+    <a href="#servizi">Servizi</a>
+    <a href="#galleria">Galleria</a>
+    <a href="#recensioni">Recensioni</a>
+    <a href="#contatti">Contatti</a>
+    <a href="https://widget.treatwell.it/salone/fashion-line/?utm_source=partner&utm_medium=partner-site-book-now-widget/" target="_blank" rel="noopener" class="btn btn-gold nav-cta">Prenota</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Apri menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <picture class="hero-bg" id="heroBg">
+    <source media="(max-width: 800px)" srcset="img/salone-lampadari-800.webp">
+    <img src="img/salone-lampadari.webp" alt="Interno del salone Fashion Line con lampadari di cristallo e specchi" fetchpriority="high">
+  </picture>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow reveal">Parrucchiere · Porta Venezia</p>
+    <h1 class="hero-title reveal">Fashion Line<em>Hair Diffusion</em></h1>
+    <p class="hero-text reveal">Taglio, colore e trattamenti in un salone elegante e luminoso, a due passi da Piazzale Bacone.</p>
+    <div class="hero-actions reveal">
+      <a href="https://widget.treatwell.it/salone/fashion-line/?utm_source=partner&utm_medium=partner-site-book-now-widget/" target="_blank" rel="noopener" class="btn btn-gold">Prenota online</a>
+      <a href="tel:+390229401671" class="btn btn-ghost">Chiama</a>
+    </div>
+    <div class="hero-status reveal" id="openStatus" aria-live="polite"></div>
+  </div>
+  <a href="#salone" class="scroll-hint" aria-label="Scorri giù"><span></span></a>
+</section>
+
+<!-- NUMERI -->
+<section class="stats" aria-label="In breve">
+  <div class="stat reveal">
+    <div class="stat-num"><span data-count="4.7" data-dec="1">0</span><small>★</small></div>
+    <div class="stat-label">media su Treatwell</div>
+  </div>
+  <div class="stat reveal">
+    <div class="stat-num"><span data-count="213">0</span>+</div>
+    <div class="stat-label">recensioni verificate</div>
+  </div>
+  <div class="stat reveal">
+    <div class="stat-num"><span data-count="4">0</span></div>
+    <div class="stat-label">stylist nel team</div>
+  </div>
+  <div class="stat reveal">
+    <div class="stat-num"><span data-count="6">0</span></div>
+    <div class="stat-label">giorni su 7 aperti</div>
+  </div>
+</section>
+
+<!-- IL SALONE -->
+<section class="about marble" id="salone">
+  <div class="about-img reveal">
+    <img src="img/postazioni-800.webp" alt="Postazioni con specchi a mosaico argento" loading="lazy" width="800" height="500">
+    <span class="arc" aria-hidden="true"></span>
+  </div>
+  <div class="about-text">
+    <p class="eyebrow reveal">Il salone</p>
+    <h2 class="reveal">Eleganza, ascolto<br>e cura dei dettagli</h2>
+    <p class="reveal">Lampadari di cristallo, specchi a mosaico e un'atmosfera accogliente: da Fashion Line ti senti subito a tuo agio. Il nostro team ascolta le tue richieste e ti consiglia il taglio e il colore più adatti a te.</p>
+    <p class="reveal">Lavoriamo solo con prodotti professionali come <strong>Kérastase</strong>, <strong>L'Oréal Professionnel</strong>, <strong>Wella</strong> e <strong>Davines</strong>, anche nelle versioni senza ammoniaca.</p>
+    <div class="brands reveal" aria-label="Marchi utilizzati">
+      <span>Kérastase</span><span>L'Oréal</span><span>Wella</span><span>Davines</span>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIZI -->
+<section class="services" id="servizi">
+  <div class="section-head">
+    <p class="eyebrow reveal">Servizi &amp; prezzi</p>
+    <h2 class="reveal">Scegli il tuo trattamento</h2>
+    <p class="section-sub reveal">Tocca <b>Prenota</b> accanto al servizio: scegli giorno e orario in pochi secondi.</p>
+  </div>
+  <div class="tabs reveal" role="tablist" id="tabs"></div>
+  <div class="service-list" id="serviceList" role="tabpanel"></div>
+  <noscript><p class="center"><a class="btn btn-gold" href="https://widget.treatwell.it/salone/fashion-line/">Vedi servizi e prenota</a></p></noscript>
+</section>
+
+<!-- GALLERIA -->
+<section class="gallery" id="galleria">
+  <div class="section-head light">
+    <p class="eyebrow reveal">Galleria</p>
+    <h2 class="reveal">Entra nel salone</h2>
+  </div>
+  <div class="carousel reveal" id="carousel">
+    <button class="car-btn prev" aria-label="Foto precedente">‹</button>
+    <div class="car-track" id="track">
+      <figure><img src="img/salone-lampadari-800.webp" alt="Sala principale con lampadari" loading="lazy" width="800" height="500"><figcaption>La sala principale</figcaption></figure>
+      <figure><img src="img/lavaggio-800.webp" alt="Zona lavaggio con divano chesterfield" loading="lazy" width="800" height="500"><figcaption>Zona lavaggio</figcaption></figure>
+      <figure><img src="img/postazioni-800.webp" alt="Postazioni con specchi" loading="lazy" width="800" height="500"><figcaption>Le postazioni</figcaption></figure>
+      <figure><img src="img/kerastase-fusio-800.webp" alt="Trattamenti Kérastase Fusio-Dose" loading="lazy" width="800" height="500"><figcaption>Trattamenti Kérastase</figcaption></figure>
+      <figure><img src="img/specchi.webp" alt="Specchi e poltrone" loading="lazy" width="360" height="240"><figcaption>Specchi a mosaico</figcaption></figure>
+      <figure><img src="img/infinium.webp" alt="Lacca L'Oréal Infinium" loading="lazy" width="360" height="240"><figcaption>L'Oréal Professionnel</figcaption></figure>
+      <figure><img src="img/mythic-oil.webp" alt="Mythic Oil" loading="lazy" width="360" height="240"><figcaption>Mythic Oil</figcaption></figure>
+      <figure><img src="img/kerastase-curl.webp" alt="Prodotti Kérastase" loading="lazy" width="360" height="240"><figcaption>Prodotti professionali</figcaption></figure>
+    </div>
+    <button class="car-btn next" aria-label="Foto successiva">›</button>
+  </div>
+  <div class="dots" id="dots"></div>
+</section>
+
+<!-- TEAM -->
+<section class="team marble">
+  <div class="section-head">
+    <p class="eyebrow reveal">Il team</p>
+    <h2 class="reveal">Le nostre stylist</h2>
+  </div>
+  <div class="team-grid">
+    <div class="member reveal"><div class="mono">C</div><h3>Cinzia</h3><p>★ 4,9</p></div>
+    <div class="member reveal"><div class="mono">G</div><h3>Galya</h3><p>★ 4,9</p></div>
+    <div class="member reveal"><div class="mono">A</div><h3>Alessandra</h3><p>★ 4,8</p></div>
+    <div class="member reveal"><div class="mono">D</div><h3>Damiano</h3><p>★ 4,6</p></div>
+  </div>
+  <p class="note reveal">Valutazioni dei clienti su Treatwell</p>
+</section>
+
+<!-- RECENSIONI -->
+<section class="reviews" id="recensioni">
+  <div class="section-head">
+    <p class="eyebrow reveal">Recensioni</p>
+    <h2 class="reveal">Cosa dicono di noi</h2>
+    <div class="rating reveal"><span class="stars" style="--r:4.7" aria-label="4,7 su 5"></span> <b>4,7</b> / 5 · 213 recensioni su Treatwell</div>
+  </div>
+  <div class="rev-wrap reveal">
+    <div class="rev-track" id="revTrack">
+      <blockquote class="review"><div class="stars" style="--r:5" aria-label="5 su 5"></div><p>“Servizio eccellente e rapido, Cinzia ha ascoltato le mie richieste, mi ha messa a mio agio”</p><cite>Irene</cite></blockquote>
+      <blockquote class="review"><div class="stars" style="--r:5" aria-label="5 su 5"></div><p>“Familiarità, empatia e professionalità. Consigliato!!”</p><cite>Carlotta</cite></blockquote>
+      <blockquote class="review"><div class="stars" style="--r:5" aria-label="5 su 5"></div><p>“Cinzia molto attenta, professionale (mi ha anche dato un paio di consigli per il taglio)”</p><cite>Chiara</cite></blockquote>
+      <blockquote class="review"><div class="stars" style="--r:5" aria-label="5 su 5"></div><p>“Ho trovato molto alla moda il salone, ben curato nei dettagli”</p><cite>Mary</cite></blockquote>
+      <blockquote class="review"><div class="stars" style="--r:5" aria-label="5 su 5"></div><p>“Come sempre un'esperienza perfetta da Fashion Line!”</p><cite>Isabella</cite></blockquote>
+    </div>
+  </div>
+  <div class="dots" id="revDots"></div>
+  <p class="center reveal"><a class="link-gold" href="https://www.treatwell.it/salone/fashion-line/" target="_blank" rel="noopener">Leggi tutte le recensioni su Treatwell →</a></p>
+</section>
+
+<!-- CONTATTI -->
+<section class="contact marble" id="contatti">
+  <div class="section-head">
+    <p class="eyebrow reveal">Contatti</p>
+    <h2 class="reveal">Vieni a trovarci</h2>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-card reveal">
+      <h3>Orari</h3>
+      <ul class="hours" id="hours">
+        <li data-d="1"><span>Lunedì</span><span>Chiuso</span></li>
+        <li data-d="2"><span>Martedì</span><span>09:00 – 19:00</span></li>
+        <li data-d="3"><span>Mercoledì</span><span>09:00 – 19:00</span></li>
+        <li data-d="4"><span>Giovedì</span><span>09:00 – 19:00</span></li>
+        <li data-d="5"><span>Venerdì</span><span>09:00 – 19:00</span></li>
+        <li data-d="6"><span>Sabato</span><span>09:00 – 19:00</span></li>
+        <li data-d="0"><span>Domenica</span><span>Chiuso</span></li>
+      </ul>
+    </div>
+    <div class="contact-card reveal">
+      <h3>Dove siamo</h3>
+      <p>Via Castel Morrone 18<br>20129 Milano (MI)<br><small>Zona Piazzale Bacone · Porta Venezia</small></p>
+      <h3>Contatti</h3>
+      <p><a href="tel:+390229401671">02 2940 1671</a><br><a href="mailto:damcuc@libero.it">damcuc@libero.it</a></p>
+      <div class="contact-actions">
+        <a class="btn btn-gold" href="https://widget.treatwell.it/salone/fashion-line/?utm_source=partner&utm_medium=partner-site-book-now-widget/" target="_blank" rel="noopener">Prenota</a>
+        <a class="btn btn-outline" href="https://www.google.com/maps/dir/?api=1&destination=Via+Castel+Morrone+18+20129+Milano" target="_blank" rel="noopener">Indicazioni</a>
+      </div>
+    </div>
+    <div class="map reveal">
+      <iframe title="Mappa: Via Castel Morrone 18, Milano" src="https://www.google.com/maps?q=Via+Castel+Morrone+18,+20129+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="logo"><span class="logo-main">Fashion Line</span><span class="logo-sub">Hair Diffusion</span></div>
+  <p>Via Castel Morrone 18, 20129 Milano · <a href="tel:+390229401671">02 2940 1671</a></p>
+  <p class="copy">© <span id="year"></span> Fashion Line Hair Diffusion</p>
+</footer>
+
+<!-- Barra fissa mobile -->
+<nav class="mobile-bar" aria-label="Azioni rapide">
+  <a href="tel:+390229401671"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Chiama</a>
+  <a href="https://widget.treatwell.it/salone/fashion-line/?utm_source=partner&utm_medium=partner-site-book-now-widget/" target="_blank" rel="noopener" class="bar-main">Prenota ora</a>
+  <a href="https://www.google.com/maps/dir/?api=1&destination=Via+Castel+Morrone+18+20129+Milano" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>Mappa</a>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
